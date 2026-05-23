@@ -20,8 +20,8 @@ Identify handwritten alphabets (A–Z) using Deep CNN on EMNIST dataset.
 Build a CNN that reads handwritten characters with high accuracy (~88–92% on A–Z).
 
 ## 🗂️ Dataset
-- **EMNIST Letters** — 26 classes (A–Z) | 145,600 samples | Auto-downloaded ✅
-- **MNIST Digits** — fallback option
+- **EMNIST Letters** — 26 classes (A–Z) | 145,600 samples
+- **Fallback:** MNIST Digits — 10 classes (0–9) | 70,000 samples
 
 ## 🤖 Model — Deep CNN
 ```
@@ -41,7 +41,7 @@ Input (28×28×1)
 ## 🚀 Run on Google Colab
 1. Upload `handwritten_recognition.ipynb` to Colab
 2. `Runtime → Change runtime type → GPU` ⚡
-3. `Runtime → Run All` — dataset auto-downloads ✅
+3. `Runtime → Run All`
 
 ## 🛠️ Tech Stack
 `Python` · `TensorFlow/Keras` · `NumPy` · `Matplotlib` · `Seaborn`
